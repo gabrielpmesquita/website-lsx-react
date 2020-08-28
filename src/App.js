@@ -1,10 +1,9 @@
 import React from 'react';
+import Routes from './routes'
 
 function App() {
   return (
-    <div className="App">
-        <h1>Minha página no React. Coisa linda papai hihihi</h1>
-    </div>
+    <Routes> </Routes> // Isso é graças ao JSX, essa é a mágica do React!
   );
 }
 
